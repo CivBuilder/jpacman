@@ -33,17 +33,17 @@ public class AnimatedSprite implements Sprite {
     /**
      * The index of the current frame.
      */
-    private int current;
+    int current;
 
     /**
      * Whether this sprite is currently animating or not.
      */
-    private boolean animating;
+    boolean animating;
 
     /**
      * The {@link System#currentTimeMillis()} stamp of the last update.
      */
-    private long lastUpdate;
+    long lastUpdate;
 
     /**
      * Creates a new animating sprite that will change frames every interval. By
